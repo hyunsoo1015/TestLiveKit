@@ -1,0 +1,6 @@
+framework module GripLiveKit {
+  umbrella header "GripLiveKit.h"
+  export *
+
+  module * { export * }
+}
