@@ -15,12 +15,12 @@ import _StringProcessing
   @objc deinit
 }
 @objc public enum VOD_TYPE : Swift.Int {
-  case HOME
-  case LIVE_WIDGET
-  case SHORTS_WIDGET
-  case BANNER_WIDGET
-  case LIVE_PLAYER
-  case SHORTS_PLAYER
+  @objc(HOME) case HOME
+  @objc(LIVE_WIDGET) case LIVE_WIDGET
+  @objc(SHORTS_WIDGET) case SHORTS_WIDGET
+  @objc(BANNER_WIDGET) case BANNER_WIDGET
+  @objc(LIVE_PLAYER) case LIVE_PLAYER
+  @objc(SHORTS_PLAYER) case SHORTS_PLAYER
   public var KEY: Swift.String {
     get
   }

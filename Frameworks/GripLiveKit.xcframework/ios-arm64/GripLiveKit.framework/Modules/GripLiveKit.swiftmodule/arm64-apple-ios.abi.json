@@ -139,9 +139,10 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "c:@M@GripLiveKit@E@VOD_TYPE@VOD_TYPEHOME",
+            "usr": "c:@M@GripLiveKit@E@VOD_TYPE@HOME",
             "mangledName": "$s11GripLiveKit8VOD_TYPEO4HOMEyA2CmF",
             "moduleName": "GripLiveKit",
+            "objc_name": "HOME",
             "declAttributes": [
               "ObjC"
             ],
@@ -180,9 +181,10 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "c:@M@GripLiveKit@E@VOD_TYPE@VOD_TYPELIVE_WIDGET",
+            "usr": "c:@M@GripLiveKit@E@VOD_TYPE@LIVE_WIDGET",
             "mangledName": "$s11GripLiveKit8VOD_TYPEO11LIVE_WIDGETyA2CmF",
             "moduleName": "GripLiveKit",
+            "objc_name": "LIVE_WIDGET",
             "declAttributes": [
               "ObjC"
             ],
@@ -221,9 +223,10 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "c:@M@GripLiveKit@E@VOD_TYPE@VOD_TYPESHORTS_WIDGET",
+            "usr": "c:@M@GripLiveKit@E@VOD_TYPE@SHORTS_WIDGET",
             "mangledName": "$s11GripLiveKit8VOD_TYPEO13SHORTS_WIDGETyA2CmF",
             "moduleName": "GripLiveKit",
+            "objc_name": "SHORTS_WIDGET",
             "declAttributes": [
               "ObjC"
             ],
@@ -262,9 +265,10 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "c:@M@GripLiveKit@E@VOD_TYPE@VOD_TYPEBANNER_WIDGET",
+            "usr": "c:@M@GripLiveKit@E@VOD_TYPE@BANNER_WIDGET",
             "mangledName": "$s11GripLiveKit8VOD_TYPEO13BANNER_WIDGETyA2CmF",
             "moduleName": "GripLiveKit",
+            "objc_name": "BANNER_WIDGET",
             "declAttributes": [
               "ObjC"
             ],
@@ -303,9 +307,10 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "c:@M@GripLiveKit@E@VOD_TYPE@VOD_TYPELIVE_PLAYER",
+            "usr": "c:@M@GripLiveKit@E@VOD_TYPE@LIVE_PLAYER",
             "mangledName": "$s11GripLiveKit8VOD_TYPEO11LIVE_PLAYERyA2CmF",
             "moduleName": "GripLiveKit",
+            "objc_name": "LIVE_PLAYER",
             "declAttributes": [
               "ObjC"
             ],
@@ -344,9 +349,10 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "c:@M@GripLiveKit@E@VOD_TYPE@VOD_TYPESHORTS_PLAYER",
+            "usr": "c:@M@GripLiveKit@E@VOD_TYPE@SHORTS_PLAYER",
             "mangledName": "$s11GripLiveKit8VOD_TYPEO13SHORTS_PLAYERyA2CmF",
             "moduleName": "GripLiveKit",
+            "objc_name": "SHORTS_PLAYER",
             "declAttributes": [
               "ObjC"
             ],
@@ -5836,70 +5842,70 @@
     {
       "filePath": "\/Users\/grip231\/Desktop\/GripLiveKit\/Sources\/GripLiveKit\/VODType.swift",
       "kind": "IntegerLiteral",
-      "offset": 155,
+      "offset": 199,
       "length": 11,
       "value": "1"
     },
     {
       "filePath": "\/Users\/grip231\/Desktop\/GripLiveKit\/Sources\/GripLiveKit\/VODType.swift",
       "kind": "IntegerLiteral",
-      "offset": 176,
+      "offset": 250,
       "length": 13,
       "value": "2"
     },
     {
       "filePath": "\/Users\/grip231\/Desktop\/GripLiveKit\/Sources\/GripLiveKit\/VODType.swift",
       "kind": "IntegerLiteral",
-      "offset": 199,
+      "offset": 303,
       "length": 13,
       "value": "3"
     },
     {
       "filePath": "\/Users\/grip231\/Desktop\/GripLiveKit\/Sources\/GripLiveKit\/VODType.swift",
       "kind": "IntegerLiteral",
-      "offset": 222,
+      "offset": 354,
       "length": 11,
       "value": "4"
     },
     {
       "filePath": "\/Users\/grip231\/Desktop\/GripLiveKit\/Sources\/GripLiveKit\/VODType.swift",
       "kind": "IntegerLiteral",
-      "offset": 243,
+      "offset": 405,
       "length": 13,
       "value": "5"
     },
     {
       "filePath": "\/Users\/grip231\/Desktop\/GripLiveKit\/Sources\/GripLiveKit\/VODType.swift",
       "kind": "IntegerLiteral",
-      "offset": 155,
+      "offset": 199,
       "length": 11,
       "value": "1"
     },
     {
       "filePath": "\/Users\/grip231\/Desktop\/GripLiveKit\/Sources\/GripLiveKit\/VODType.swift",
       "kind": "IntegerLiteral",
-      "offset": 176,
+      "offset": 250,
       "length": 13,
       "value": "2"
     },
     {
       "filePath": "\/Users\/grip231\/Desktop\/GripLiveKit\/Sources\/GripLiveKit\/VODType.swift",
       "kind": "IntegerLiteral",
-      "offset": 199,
+      "offset": 303,
       "length": 13,
       "value": "3"
     },
     {
       "filePath": "\/Users\/grip231\/Desktop\/GripLiveKit\/Sources\/GripLiveKit\/VODType.swift",
       "kind": "IntegerLiteral",
-      "offset": 222,
+      "offset": 354,
       "length": 11,
       "value": "4"
     },
     {
       "filePath": "\/Users\/grip231\/Desktop\/GripLiveKit\/Sources\/GripLiveKit\/VODType.swift",
       "kind": "IntegerLiteral",
-      "offset": 243,
+      "offset": 405,
       "length": 13,
       "value": "5"
     },

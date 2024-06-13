@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/GripLiveKit-Swift.h</key>
 		<data>
-		i2ba2jl+IXX1xVkTWEN5Y79NsZY=
+		Lvm/XM1AKds78iWubCl1V8OrG9c=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/GripLiveKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		T5nUKYpkpt08bqK8MeUj8etG050=
+		v4HiL/2KqCMtJSWGyfgqmSUxpB8=
 		</data>
 		<key>Modules/GripLiveKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		w3zOk3wMT624Xwymi9AzLzN7duc=
+		dtLg8S3qGmGP1Yb9LpJeyLTfSHE=
 		</data>
 		<key>Modules/GripLiveKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/GripLiveKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		w3zOk3wMT624Xwymi9AzLzN7duc=
+		dtLg8S3qGmGP1Yb9LpJeyLTfSHE=
 		</data>
 		<key>Modules/GripLiveKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		No2QhgTRWzbLtqxDtriYfDx+8/M=
+		7E99jWWxxrpjUn640GjXENnl7fc=
 		</data>
 		<key>Modules/GripLiveKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		T5nUKYpkpt08bqK8MeUj8etG050=
+		v4HiL/2KqCMtJSWGyfgqmSUxpB8=
 		</data>
 		<key>Modules/GripLiveKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		MZKYDGIhw0GVMHON4oACQh+S9mQ=
+		Fef3Z/f1tIYuGdYsKPzAjHo9AOY=
 		</data>
 		<key>Modules/GripLiveKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/GripLiveKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		MZKYDGIhw0GVMHON4oACQh+S9mQ=
+		Fef3Z/f1tIYuGdYsKPzAjHo9AOY=
 		</data>
 		<key>Modules/GripLiveKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		P5Vh5BfZRiuoimSzYJE071c+lUM=
+		PeLjI0ee7Aqw/x49+xXQeYE5+es=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -59,21 +59,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7SUEkDFl4gDeLN2NouVqdjcGD+tsI7wScB1OOmNDeOM=
+			X10MUf+9asiOAwU0Ii1YqcG07pK/Vbt4bm65rQGmah4=
 			</data>
 		</dict>
 		<key>Modules/GripLiveKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9IEq1blIrYEVP0PBQeK1IYaQK0T2PqUshcptzteESa8=
+			d0ISAgsEM/R5cSX5TMPiTifnrx3h49UNkQdozxj2HJI=
 			</data>
 		</dict>
 		<key>Modules/GripLiveKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7EcM1tRSyzt2mdBcDTu6T1B0QWb0b4UbHhw2ok48flc=
+			urKJHuqqzza4B/YWz8UBe30B0FvL4msqDEKo6t6+GZc=
 			</data>
 		</dict>
 		<key>Modules/GripLiveKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -87,28 +87,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7EcM1tRSyzt2mdBcDTu6T1B0QWb0b4UbHhw2ok48flc=
+			urKJHuqqzza4B/YWz8UBe30B0FvL4msqDEKo6t6+GZc=
 			</data>
 		</dict>
 		<key>Modules/GripLiveKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IvwzgQ8/qQmrO1mCpGFDbPW1F5Uz1SiJSV2zoyenZ+k=
+			dkz+CI6ysW7rqlojyUmnCAz5J27jeqZEDu9YE5Fe8OM=
 			</data>
 		</dict>
 		<key>Modules/GripLiveKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9IEq1blIrYEVP0PBQeK1IYaQK0T2PqUshcptzteESa8=
+			d0ISAgsEM/R5cSX5TMPiTifnrx3h49UNkQdozxj2HJI=
 			</data>
 		</dict>
 		<key>Modules/GripLiveKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uIRaoW0NxUKNgqIzSochcVAdrVrmWUXEcp+W68Vr/bY=
+			xn3amEpXQP4Zs2G4aT6VCePoKCM2sD4pxUdozUsB2Fw=
 			</data>
 		</dict>
 		<key>Modules/GripLiveKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -122,14 +122,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uIRaoW0NxUKNgqIzSochcVAdrVrmWUXEcp+W68Vr/bY=
+			xn3amEpXQP4Zs2G4aT6VCePoKCM2sD4pxUdozUsB2Fw=
 			</data>
 		</dict>
 		<key>Modules/GripLiveKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9jutRTS21/UNOt5yb1JoUSr7quFg8Cf3e1LuJ2Y11hk=
+			DpzjCFM0WZhRGRcZkQbaNPhpSqz6D+WdG3eDJDwzzuw=
 			</data>
 		</dict>
 	</dict>
