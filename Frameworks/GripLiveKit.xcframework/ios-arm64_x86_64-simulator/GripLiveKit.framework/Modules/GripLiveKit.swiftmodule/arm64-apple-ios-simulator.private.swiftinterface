@@ -1,8 +1,8 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name GripLiveKit
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name GripLiveKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
-@_exported import GripLiveKit
 import Security
 import Swift
 import SystemConfiguration
@@ -10,28 +10,7 @@ import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
-import _SwiftConcurrencyShims
-@_inheritsConvenienceInitializers @objc public class UserInfo : ObjectiveC.NSObject, Swift.Codable {
-  @objc public func getId() -> Swift.String?
-  @objc public func getNick() -> Swift.String?
-  @objc public func getGender() -> Swift.String?
-  @objc public func getAge() -> Swift.String?
-  @objc public func setId(_ id: Swift.String) -> GripLiveKit.UserInfo
-  @objc public func setNick(_ nick: Swift.String) -> GripLiveKit.UserInfo
-  @discardableResult
-  @objc public func setGender(_ gender: Swift.String) -> GripLiveKit.UserInfo
-  @discardableResult
-  @objc public func setAge(_ age: Swift.String) -> GripLiveKit.UserInfo
-  @objc override dynamic public init()
-  @objc deinit
-  public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
-}
-@_hasMissingDesignatedInitializers public class ModelBuilder {
-  public static func initData(channelId: Swift.String, type: Swift.String, id: Swift.String, nick: Swift.String, gender: Swift.String? = nil, age: Swift.String? = nil) -> GripLiveKit.RequestParams
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers public class GripCloudApiService {
+@_hasMissingDesignatedInitializers public class GripCloudAPIService {
   public static func sendRequest(url: Swift.String, request: Swift.String, channelId: Swift.String) -> Swift.Bool
   @objc deinit
 }
@@ -51,41 +30,13 @@ import _SwiftConcurrencyShims
     get
   }
 }
-@_inheritsConvenienceInitializers @objc public class VOD_TYPE_Helper : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @objc public class VOD_TYPE_OBJC : ObjectiveC.NSObject {
   @objc public static func key(for type: GripLiveKit.VOD_TYPE) -> Swift.String
   @objc override dynamic public init()
   @objc deinit
 }
-@objc public protocol GripCloudDelegate {
-  @objc func handleError(_ code: Swift.String, message: Swift.String)
-  @objc func handleSuccess(_ code: Swift.String, message: Swift.String)
-  @objc func networkConnectStatus(_ isConnected: Swift.Bool, message: Swift.String)
-}
-@_inheritsConvenienceInitializers @objc public class GripCloud : ObjectiveC.NSObject {
-  public static let shared: GripLiveKit.GripCloud
-  @objc override dynamic public init()
-  @objc weak public static var delegate: (any GripLiveKit.GripCloudDelegate)?
-  @objc weak public static var networkDelegate: (any GripLiveKit.GripCloudDelegate)?
-  @objc public static func play(channelId: Swift.String, type: Swift.String, userInfo: GripLiveKit.UserInfo, isFloating: Swift.Bool, floatingLocation: GripLiveKit.FloatingLocation, playerDelegate: any GripLiveKit.PlayerViewDelegate)
-  @objc public static func getUUID() -> Swift.String
-  @objc deinit
-}
-@objc public protocol PlayerViewDelegate {
-  @objc func playerViewPresenting(isPresent: Swift.Bool, message: Swift.String)
-  @objc func webViewDidFinishLoad(isLoad: Swift.Bool, message: Swift.String)
-}
-@objc public enum CustomSuccess : Swift.Int {
-  case playSuccess
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@_inheritsConvenienceInitializers @objc public class CustomSuccessHelper : ObjectiveC.NSObject {
-  @objc public static func code(for success: GripLiveKit.CustomSuccess) -> Swift.String
-  @objc public static func description(for success: GripLiveKit.CustomSuccess) -> Swift.String
-  @objc override dynamic public init()
+@_hasMissingDesignatedInitializers public class ModelBuilder {
+  public static func initData(channelId: Swift.String, type: Swift.String, id: Swift.String, nick: Swift.String, gender: Swift.String? = nil, age: Swift.String? = nil) -> GripLiveKit.RequestParams
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class RequestParams : Swift.Codable {
@@ -104,25 +55,25 @@ import _SwiftConcurrencyShims
   public func setType(_ type: Swift.String) -> GripLiveKit.RequestParams
   public func setMemberData(_ userInfo: GripLiveKit.UserInfo) -> GripLiveKit.RequestParams
   @objc deinit
-  public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
 }
-@objc public enum CustomError : Swift.Int {
-  case authFailed
-  case networkError
-  case serverError
-  case invalidData
-  case invalidChannelId
-  case encodingFailed
+@objc public enum ERROR_CASE : Swift.Int {
+  case AUTH_FAILED
+  case NETWORK_ERROR
+  case SERVER_ERROR
+  case INVALID_DATA
+  case INVALID_CHANNEL_ID
+  case ENCODING_FAILED
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
 }
-@_inheritsConvenienceInitializers @objc public class CustomErrorHelper : ObjectiveC.NSObject {
-  @objc public static func code(for error: GripLiveKit.CustomError) -> Swift.String
-  @objc public static func description(for error: GripLiveKit.CustomError) -> Swift.String
+@_inheritsConvenienceInitializers @objc public class ERROR_OBJC : ObjectiveC.NSObject {
+  @objc public static func CODE(for error: GripLiveKit.ERROR_CASE) -> Swift.String
+  @objc public static func DESCRIPTION(for error: GripLiveKit.ERROR_CASE) -> Swift.String
   @objc override dynamic public init()
   @objc deinit
 }
@@ -137,15 +88,63 @@ import _SwiftConcurrencyShims
     get
   }
 }
+@objc public enum SUCCESS : Swift.Int {
+  case PLAY_SUCCESS
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class SUCCESS_OBJC : ObjectiveC.NSObject {
+  @objc public static func CODE(for success: GripLiveKit.SUCCESS) -> Swift.String
+  @objc public static func DESCRIPTION(for success: GripLiveKit.SUCCESS) -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class UserInfo : ObjectiveC.NSObject, Swift.Codable {
+  @objc public func getId() -> Swift.String?
+  @objc public func getNick() -> Swift.String?
+  @objc public func getGender() -> Swift.String?
+  @objc public func getAge() -> Swift.String?
+  @objc public func setId(_ id: Swift.String) -> GripLiveKit.UserInfo
+  @objc public func setNick(_ nick: Swift.String) -> GripLiveKit.UserInfo
+  @discardableResult
+  @objc public func setGender(_ gender: Swift.String) -> GripLiveKit.UserInfo
+  @discardableResult
+  @objc public func setAge(_ age: Swift.String) -> GripLiveKit.UserInfo
+  @objc override dynamic public init()
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@objc public protocol PlayerViewDelegate {
+  @objc func playerViewPresenting(isPresent: Swift.Bool, message: Swift.String)
+  @objc func webViewDidFinishLoad(isLoad: Swift.Bool, message: Swift.String)
+}
+@objc public protocol GripCloudDelegate {
+  @objc func handleError(_ code: Swift.String, message: Swift.String)
+  @objc func handleSuccess(_ code: Swift.String, message: Swift.String)
+  @objc func networkConnectStatus(_ isConnected: Swift.Bool, message: Swift.String)
+}
+@_inheritsConvenienceInitializers @objc public class GripCloud : ObjectiveC.NSObject {
+  public static let shared: GripLiveKit.GripCloud
+  @objc override dynamic public init()
+  @objc weak public static var delegate: GripLiveKit.GripCloudDelegate?
+  @objc weak public static var networkDelegate: GripLiveKit.GripCloudDelegate?
+  @objc public static func play(channelId: Swift.String, type: Swift.String, userInfo: GripLiveKit.UserInfo, isFloating: Swift.Bool, floatingLocation: GripLiveKit.FloatingLocation, playerDelegate: GripLiveKit.PlayerViewDelegate)
+  @objc public static func getUUID() -> Swift.String
+  @objc deinit
+}
 extension GripLiveKit.VOD_TYPE : Swift.Equatable {}
 extension GripLiveKit.VOD_TYPE : Swift.Hashable {}
 extension GripLiveKit.VOD_TYPE : Swift.RawRepresentable {}
-extension GripLiveKit.CustomSuccess : Swift.Equatable {}
-extension GripLiveKit.CustomSuccess : Swift.Hashable {}
-extension GripLiveKit.CustomSuccess : Swift.RawRepresentable {}
-extension GripLiveKit.CustomError : Swift.Equatable {}
-extension GripLiveKit.CustomError : Swift.Hashable {}
-extension GripLiveKit.CustomError : Swift.RawRepresentable {}
+extension GripLiveKit.ERROR_CASE : Swift.Equatable {}
+extension GripLiveKit.ERROR_CASE : Swift.Hashable {}
+extension GripLiveKit.ERROR_CASE : Swift.RawRepresentable {}
 extension GripLiveKit.FloatingLocation : Swift.Equatable {}
 extension GripLiveKit.FloatingLocation : Swift.Hashable {}
 extension GripLiveKit.FloatingLocation : Swift.RawRepresentable {}
+extension GripLiveKit.SUCCESS : Swift.Equatable {}
+extension GripLiveKit.SUCCESS : Swift.Hashable {}
+extension GripLiveKit.SUCCESS : Swift.RawRepresentable {}
